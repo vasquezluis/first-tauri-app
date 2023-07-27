@@ -1,0 +1,12 @@
+### -> crear proyecto tauri
+  npm create tauri-app@latest
+
+### -> ejecutar tauri en modo desarrollo
+  npm run tauri dev
+
+### -> compilar tauri app
+  configurar dominio
+    -> tauri.config.json
+      -> tauri -> bundle -> identifier
+        -> "com.example.app"
+  npm run tauri build
